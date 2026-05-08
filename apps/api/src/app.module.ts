@@ -12,7 +12,7 @@ import { ArticlesModule } from './articles/articles.module';
       envFilePath: '.env',
       validationSchema: envValidationSchema,
       validationOptions: {
-        allowUnknown: false,
+        allowUnknown: true,
         abortEarly: false,
       },
     }),
