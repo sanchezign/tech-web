@@ -3,8 +3,5 @@
   "framework": "nextjs",
   "installCommand": "pnpm install --frozen-lockfile",
   "buildCommand": "pnpm build",
-  "outputDirectory": ".next",
-  "comments": {
-    "note": "Environment variables must be set in the Vercel dashboard under Project → Settings → Environment Variables. Required: NEXT_PUBLIC_API_URL (the deployed Render backend URL, e.g. https://tech-web-api.onrender.com/api/v1)."
-  }
+  "outputDirectory": ".next"
 }
